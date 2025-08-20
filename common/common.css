@@ -1,25 +1,22 @@
 @font-face {
-    font-family: "BalooBhaijaan2_RG";
-    src: url($BalooBhaijaan2_RG) format("truetype");
-
+  font-family: "BalooBhaijaan2_RG";
+  src: url($BalooBhaijaan2_RG) format("truetype");
 }
 
 @font-face {
-    font-family: "BalooBhaijaan2_B";
-    src: url($BalooBhaijaan2_B) format("truetype");
-
+  font-family: "BalooBhaijaan2_B";
+  src: url($BalooBhaijaan2_B) format("truetype");
 }
-
 
 body {
-    --font-family: "BalooBhaijaan2_RG";
-    --heading-font-family: "BalooBhaijaan2_B";
-    font-family: var(--font-family), serif;
+  font-family: "BalooBhaijaan2_RG", serif;
 }
 
-.d-editor-container--rich-editor-enabled .d-editor-textarea-wrapper textarea.d-editor-input,
+.d-editor-container--rich-editor-enabled
+  .d-editor-textarea-wrapper
+  textarea.d-editor-input,
 .form-vertical .control-label:not(.checkbox-label) {
-    font-family: var(--font-family), serif !important;
+  font-family: "BalooBhaijaan2_RG", serif !important;
 }
 
 h1,
@@ -28,5 +25,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--heading-font-family), serif;
+  font-family: "BalooBhaijaan2_B", serif;
 }
+
