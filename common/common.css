@@ -1,22 +1,20 @@
 @font-face {
-  font-family: "BalooBhaijaan_Reg";
-  src: url($BalooBhaijaan_Reg) format("truetype");
+  font-family: BalooBhaijaan;
+  src: url($BalooBhaijaan) format("truetype");
 }
 
 @font-face {
-  font-family: "BalooBhaijaan_Bold";
-  src: url($BalooBhaijaan_Bold) format("truetype");
+  font-family: BalooBhaijaanBold;
+  src: url($BalooBhaijaanBold) format("truetype");
 }
 
 body {
-  font-family: "BalooBhaijaan_Reg", serif;
+  font-family: BalooBhaijaan, serif;
 }
 
-.d-editor-container--rich-editor-enabled
-  .d-editor-textarea-wrapper
-  textarea.d-editor-input,
+.d-editor-container--rich-editor-enabled .d-editor-textarea-wrapper textarea.d-editor-input,
 .form-vertical .control-label:not(.checkbox-label) {
-  font-family: "BalooBhaijaan_Reg", serif !important;
+  font-family: BalooBhaijaan, serif !important;
 }
 
 h1,
@@ -25,5 +23,5 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "BalooBhaijaan_Bold", serif;
+  font-family: BalooBhaijaanBold, serif;
 }

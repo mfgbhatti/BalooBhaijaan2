@@ -3,7 +3,7 @@
   "about_url": "https://github.com/mfgbhatti/BalooBhaijaan2",
   "license_url": "https://github.com/mfgbhatti/BalooBhaijaan2/blob/main/LICENSE",
   "assets": {
-    "BalooBhaijaan_Reg": "assets/BalooBhaijaan2-Regular.ttf",
-    "BalooBhaijaan_Bold": "assets/BalooBhaijaan2-Bold.ttf"
+    "BalooBhaijaan": "assets/BalooBhaijaan2-Regular.ttf",
+    "BalooBhaijaanBold": "assets/BalooBhaijaan2-Bold.ttf"
   }
 }
