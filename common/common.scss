@@ -8,20 +8,8 @@
   src: url($BalooBhaijaanBold) format("truetype");
 }
 
-body {
-  font-family: BalooBhaijaan, serif;
-}
-
-.d-editor-container--rich-editor-enabled .d-editor-textarea-wrapper textarea.d-editor-input,
-.form-vertical .control-label:not(.checkbox-label) {
-  font-family: BalooBhaijaan, serif !important;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: BalooBhaijaanBold, serif;
+:root {
+  /* Font Family */
+  --font-family: BalooBhaijaan, Arial, sans-serif;
+  --heading-font-family: BalooBhaijaanBold, Arial, sans-serif;
 }
