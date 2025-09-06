@@ -12,4 +12,31 @@
   /* Font Family */
   --font-family: BalooBhaijaan, Arial, sans-serif;
   --heading-font-family: BalooBhaijaanBold, Arial, sans-serif;
+
+  --font-variant-ligatures: normal // no-common-ligatures discretionary-ligatures historical-ligatures no-contextual;
+}
+
+html {
+  font-variant-ligatures: var(--font-variant-ligatures);
+}
+
+@media (prefers-color-scheme: dark) {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-variant-ligatures: var(--font-variant-ligatures);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-variant-ligatures: var(--font-variant-ligatures);
 }
